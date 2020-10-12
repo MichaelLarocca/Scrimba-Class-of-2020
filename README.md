@@ -49,7 +49,7 @@ Replace the Lorem ipsum text with your "About Me" information
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem consequatur pariatur totam!</p>
  ```
  
- Finally, in JavaScript, rename the function name, replacing the underscore "janeDoe" or "johnDoe" with your name. (btnInfo_yourName)
+ Finally, in JavaScript, make a copy of a "Jane Doe" or "John Doe" function. Then rename the function name, replacing the underscore "janeDoe" or "johnDoe" with your name. (btnInfo_yourName)
 
 Then rename the class name, replacing the hyphen "janeDoe" or "johnDoe" with your name. ("info-yourName")
  
