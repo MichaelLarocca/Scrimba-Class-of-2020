@@ -7,7 +7,7 @@ Thank you for your consideration in contributing to this project! The purpose of
 
 To start the project, I created student cards to fill out. I left detailed instructions below on how to fill them out and edit the code.
 
-If you do not wish to fill out a student card, please consider other contributions to this project. A few suggestions I have are changing the overall style and structure, adding media queries, creating a search by class, or search by student capability. Please feel free to make any contribution suggestions.
+If you do not wish to fill out a student card, please consider other contributions to this project. A few suggestions I have are changing the overall style and structure, adding media queries, creating a search by class, or search by student name. Please feel free to make any contribution suggestions.
 
 Thanks again, and I look forward to collaborating on this project!
 
