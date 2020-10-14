@@ -18,3 +18,10 @@ function btnInfo_johnDoe() {
     ? (userInfo.style.display = "block")
     : (userInfo.style.display = "none");
 }
+
+function btnInfo_cm() {
+  const userInfo = document.getElementById("info-cm");
+  userInfo.style.display === "none"
+    ? (userInfo.style.display = "block")
+    : (userInfo.style.display = "none");
+}
