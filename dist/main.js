@@ -1,27 +1,10 @@
-function btnInfo_mjl() {
-  const userInfo = document.getElementById("info-mjl");
-  userInfo.style.display === "none"
-    ? (userInfo.style.display = "block")
-    : (userInfo.style.display = "none");
+//target all the buttons
+const infoButtons = document.querySelectorAll(".btn-info")
+
+//function to toggle the class "closed" on the "card" div
+function toggleInfo(event) {
+  event.target.parentNode.classList.toggle("closed")
 }
 
-function btnInfo_janeDoe() {
-  const userInfo = document.getElementById("info-janeDoe");
-  userInfo.style.display === "none"
-    ? (userInfo.style.display = "block")
-    : (userInfo.style.display = "none");
-}
-
-function btnInfo_johnDoe() {
-  const userInfo = document.getElementById("info-johnDoe");
-  userInfo.style.display === "none"
-    ? (userInfo.style.display = "block")
-    : (userInfo.style.display = "none");
-}
-
-function btnInfo_cm() {
-  const userInfo = document.getElementById("info-cm");
-  userInfo.style.display === "none"
-    ? (userInfo.style.display = "block")
-    : (userInfo.style.display = "none");
-}
+//add event listnener to the buttons
+infoButtons.forEach(button => button.addEventListener("click", toggleInfo))
