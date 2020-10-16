@@ -100,14 +100,10 @@ nav {
 }
 
 .card .card-info {
-  display: none; 
-}
-
-.card .card-info {
   padding: 15px 0;
   display: block;
 }
 
 .closed .card-info {
-  display: none; 
+  display: none;
 }
