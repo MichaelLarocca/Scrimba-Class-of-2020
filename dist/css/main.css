@@ -53,39 +53,57 @@ nav {
   display: flex;
   width: 325px;
   padding: 5px 10px;
-  background-color: white; }
-  .card .link {
-    margin: 0; }
-  .card .about {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    border: 1px solid gray;
-    padding: 5px;
-    margin: 5px;
-    text-align: center; }
-    .card .about-title {
-      text-decoration: underline;
-      text-decoration-color: var(--color-accent); }
-  .card img {
-    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
-    height: 75px;
-    align-self: center; }
-  .card .info {
-    align-self: center;
-    margin-left: 25px;
-    padding: 5px 0;
-    line-height: 25px; }
-  .card .btn-info {
-    cursor: pointer;
-    margin: 10px 0;
-    background-color: var(--color-accent);
-    color: white;
-    border-radius: 25px;
-    transition: background-color 0.1s ease-in-out; }
-  .card .btn-info:focus,
-  .card .btn-info:hover {
-    background-color: var(--color-accent-light); }
-  .card .card-info {
-    display: none; }
-  .card #information {
-    padding: 15px 0;
-    display: none; }
+  background-color: white; 
+}
+
+.card .link {
+  margin: 0; 
+}
+
+.card .about {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  border: 1px solid gray;
+  padding: 5px;
+  margin: 5px;
+  text-align: center; 
+}
+
+.card .about-title {
+  text-decoration: underline;
+  text-decoration-color: var(--color-accent); 
+}
+
+.card img {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  height: 75px;
+  align-self: center; 
+}
+
+.card .info {
+  align-self: center;
+  margin-left: 25px;
+  padding: 5px 0;
+  line-height: 25px; 
+}
+
+.card .btn-info {
+  cursor: pointer;
+  margin: 10px 0;
+  background-color: var(--color-accent);
+  color: white;
+  border-radius: 25px;
+  transition: background-color 0.1s ease-in-out; 
+}
+.card .btn-info:focus,
+.card .btn-info:hover {
+  background-color: var(--color-accent-light); 
+}
+
+.card .card-info {
+  padding: 15px 0;
+  display: block;
+}
+
+.closed .card-info {
+  display: none;
+}
