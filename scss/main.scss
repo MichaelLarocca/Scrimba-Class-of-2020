@@ -120,12 +120,11 @@ nav {
   }
 
   .card-info {
-    display: none;
-  }
-
-  #information {
-    // border: 1px solid yellow;
     padding: 15px 0;
-    display: none;
+    display:block;
   }
+}
+
+.closed .card-info {
+  display: none;
 }
