@@ -12,7 +12,7 @@ If you do not wish to fill out a student card, please consider other contributio
 Thanks again, and I look forward to collaborating on this project!
 
 ## Instructions to fill out and edit a student card
-First, in the HTML, copy a "Jane Doe" or "John Doe" card to edit.
+First, in the HTML, copy the "Jane Doe" or "John Doe" card and edit the info. Please keep classes intact.
 
 Then add a picture to the images folder, then change the image source:
 ```html
@@ -49,15 +49,4 @@ Replace the Lorem ipsum text with your "About Me" information
 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem consequatur pariatur totam!</p>
  ```
  
- Finally, in JavaScript, make a copy of a "Jane Doe" or "John Doe" function. Then rename the function name, replacing the underscore "janeDoe" or "johnDoe" with your name. (btnInfo_yourName)
-
-Then rename the class name, replacing the hyphen "janeDoe" or "johnDoe" with your name. ("info-yourName")
- 
- ```js
- function btnInfo_janeDoe() {
-  const userInfo = document.getElementById("info-janeDoe");
-  userInfo.style.display === "none"
-    ? (userInfo.style.display = "block")
-    : (userInfo.style.display = "none");
-}
-```
+That's it you are in part of the Class of 2020
